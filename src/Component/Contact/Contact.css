@@ -1,0 +1,98 @@
+.contact_container .content img {
+  width: 40%;
+}
+.contact_container {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 1.5rem;
+  background: #eeeeee42;
+}
+
+.contact_container .content .box_shadow {
+  padding: 30px;
+  border: 1px solid #eeeeeea0;
+  border-radius: 10px;
+  width: 48%;
+}
+.contact_container .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_container .details h1 {
+  margin: 20px 0 20px 0;
+  font-size: 35px;
+}
+.contact_container .details p {
+  font-size: 17px;
+  color: #ff9f4f;
+}
+.contact_container .details span {
+  color: #ff9f4f;
+}
+.contact_container .details .btn_shadow {
+  margin-right: 20px;
+  border: none;
+  background: none;
+}
+.contact_container .content .right .input {
+  margin-top: 20px;
+}
+.contact_container .content .right .input span {
+  font-size: 13px;
+  color: #ff9f4f;
+}
+.contact_container .content .right button {
+  width: 100%;
+  color: #ff9f4f;
+  border: none;
+  height: 58px;
+  margin-top: 1rem;
+  background: #eeeeee68;
+  border-radius: 30px;
+}
+.contact_container .content .right button:hover {
+  background: #cd863f6b;
+  color: #eeeeeea0;
+  transform: translateY(2px);
+}
+.contact_container .content .right form .input input {
+  width: 100%;
+  height: max-content;
+  border-radius: 25px;
+  border: none;
+  line-height: 5vh;
+  background: #eeeeee41;
+}
+.contact_container .content .right form .input input:hover {
+  transform: translateY(2px);
+}
+.contact_container .content .right form .input textarea {
+  resize: both;
+  width: 100%;
+  padding: 20px;
+  border-radius: 25px;
+  background: #eeeeee41;
+}
+.contact_container .content .right form .input textarea:hover {
+  transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+  .contact_container .content {
+    display: block;
+  }
+  .contact_container .content .box_shadow {
+    width: 100%;
+  }
+  .contact_container .details h1 {
+    font-size: 23px;
+  }
+  .contact_container .details p {
+    font-size: 12px;
+  }
+  .contact_container .content .right {
+    border: none;
+  }
+}

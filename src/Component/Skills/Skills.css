@@ -1,0 +1,38 @@
+.skill_container {
+  max-width: 100%;
+  background: #eeeeee42;
+  padding: 2rem;
+}
+.skill_container h3 {
+  color: #ff9f4f;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  text-align: center;
+}
+.wrapper .row .col .image {
+  width: 18%;
+}
+.wrapper .row .col .description {
+  color: #ff9f4f;
+}
+@media (max-width: 768px) {
+  .skill_container {
+    max-width: 100%;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    text-align: center;
+  }
+
+  .wrapper .row .col .description {
+    font-size: 10px;
+  }
+  .wrapper .row .col .image {
+    width: 60%;
+  }
+}

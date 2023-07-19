@@ -1,0 +1,102 @@
+.hero .photo {
+  margin: 1rem 3rem 1rem 3rem;
+  width: 60%;
+}
+.hero .photo img {
+  width: 35%;
+  border-radius: 30px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #eeeeee42;
+  height: 80vh;
+}
+.hero .hero-content {
+  width: 60%;
+  margin: 1rem 3rem 1rem 3rem;
+}
+
+.hero h3,
+h1,
+h2 {
+  color: #ff9f4f;
+}
+.hero h1 {
+  font-size: 40px;
+  line-height: 8vh;
+}
+.hero h2 {
+  font-size: 29.5px;
+  line-height: 8vh;
+}
+
+.hero .button a {
+  width: 200px;
+  height: 63px;
+  margin: 0.5rem;
+  background: #eeeeee66;
+  color: #ff9f4f;
+  font-size: 20px;
+}
+.hero .button a:hover {
+  background: #cd863f6b;
+  color: #eeeeeea0;
+  transform: translateY(2px);
+}
+.hero .button a:active {
+  transform: translateY(4px);
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 100%;
+  }
+  .hero {
+    display: flexbox;
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 80vh;
+  }
+  .hero .hero-content {
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .hero h1 {
+    font-size: 18px;
+    line-height: 3vh;
+  }
+
+  .hero h2 {
+    font-size: 19px;
+    line-height: 5vh;
+  }
+  .hero h3 {
+    line-height: 5vh;
+  }
+  .hero h3,
+  h2,
+  h1 {
+    color: #ff9f4f;
+  }
+
+  .hero .button a {
+    background: #fff6f67e;
+    color: #ff9f4f;
+    justify-content: space-around;
+    margin: 2rem 1rem 0 2rem;
+    width: 102px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 80px;
+  }
+
+  .hero .photo {
+    margin: 0 auto;
+    padding: 0;
+    width: 55%;
+  }
+  .hero .photo img {
+    width: 95%;
+  }
+}
