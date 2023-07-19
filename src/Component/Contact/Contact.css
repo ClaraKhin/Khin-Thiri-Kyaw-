@@ -1,5 +1,7 @@
 .contact_container .content img {
-  width: 40%;
+  width: 50%;
+  border-radius: 30px;
+  margin: 0 10rem;
 }
 .contact_container {
   max-width: 100%;
@@ -22,7 +24,7 @@
 
 .contact_container .details h1 {
   margin: 20px 0 20px 0;
-  font-size: 35px;
+  font-size: 33px;
 }
 .contact_container .details p {
   font-size: 17px;
@@ -94,5 +96,10 @@
   }
   .contact_container .content .right {
     border: none;
+  }
+  .contact_container .content img {
+    margin: 0 1.5rem;
+    border-radius: 10px;
+    width: 70%;
   }
 }

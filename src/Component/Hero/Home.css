@@ -1,3 +1,6 @@
+#home {
+  margin: 4rem 1rem 0 1rem;
+}
 .hero .photo {
   margin: 1rem 3rem 1rem 3rem;
   width: 60%;
@@ -84,7 +87,7 @@ h2 {
     background: #fff6f67e;
     color: #ff9f4f;
     justify-content: space-around;
-    margin: 2rem 1rem 0 2rem;
+    margin: 2rem 1rem 0 1rem;
     width: 102px;
     height: 50px;
     font-size: 12px;

@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
   return (
-    <section id="home" className="m-3">
+    <section id="home" className="">
       <div className="hero text-center">
         <div className="hero-content">
           <h3>HELLO!</h3>

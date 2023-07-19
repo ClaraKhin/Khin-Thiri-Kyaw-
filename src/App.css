@@ -23,6 +23,7 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
 header .navbar .nav-links .nav-link {
   transition: 0.5s;
   font-size: 18px;
@@ -37,9 +38,14 @@ header .navbar .nav-links .nav-link {
 header .navbar {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
   padding: 0;
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgba(90, 92, 106, 0.511) 0%,
+    rgba(32, 45, 58, 0.515) 81.3%
+  );
 }
 footer .footer_container {
   display: flex;
