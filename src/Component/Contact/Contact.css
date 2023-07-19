@@ -38,46 +38,47 @@
   border: none;
   background: none;
 }
-.contact_container .content .right .input {
-  margin-top: 20px;
-}
-.contact_container .content .right .input span {
+
+.contact_container .content .right form label {
+  display: block;
   font-size: 13px;
   color: #ff9f4f;
+  margin-top: 20px;
 }
-.contact_container .content .right button {
+.contact_container .content .right form input {
   width: 100%;
-  color: #ff9f4f;
-  border: none;
-  height: 58px;
-  margin-top: 1rem;
-  background: #eeeeee68;
-  border-radius: 30px;
-}
-.contact_container .content .right button:hover {
-  background: #cd863f6b;
-  color: #eeeeeea0;
-  transform: translateY(2px);
-}
-.contact_container .content .right form .input input {
-  width: 100%;
-  height: max-content;
   border-radius: 25px;
   border: none;
-  line-height: 5vh;
+  line-height: 6vh;
   background: #eeeeee41;
+  text-align: center;
 }
-.contact_container .content .right form .input input:hover {
-  transform: translateY(2px);
+.contact_container .content .right form input:hover {
+  transform: translateY(4px);
 }
-.contact_container .content .right form .input textarea {
+.contact_container .content .right form textarea {
   resize: both;
   width: 100%;
   padding: 20px;
   border-radius: 25px;
   background: #eeeeee41;
+  text-align: center;
 }
-.contact_container .content .right form .input textarea:hover {
+.contact_container .content .right form textarea:hover {
+  transform: translateY(4px);
+}
+.contact_container .content .right form button {
+  width: 100%;
+  color: #ff9f4f;
+  border: none;
+  height: 55px;
+  margin-top: 2rem;
+  background: #eeeeee68;
+  border-radius: 30px;
+}
+.contact_container .content .right form button:hover {
+  background: #cd863f6b;
+  color: #eeeeeea0;
   transform: translateY(2px);
 }
 

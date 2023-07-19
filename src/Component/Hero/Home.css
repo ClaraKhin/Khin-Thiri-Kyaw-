@@ -51,6 +51,10 @@ h2 {
 .hero .button a:active {
   transform: translateY(4px);
 }
+.hero .button .sendToPdfFiller {
+  display: none;
+  visibility: hidden;
+}
 @media (max-width: 768px) {
   .container {
     max-width: 100%;

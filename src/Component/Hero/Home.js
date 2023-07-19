@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import hero from "../pic/khin.jpg";
-import Resume from "../pic/Resume.pdf";
+import Khin from "../pic/Khin.pdf";
 import { Typewriter } from "react-simple-typewriter";
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
             <a href="#contact" className="btn btn-branding p-3">
               Contact
             </a>
-            <a href={Resume} download="Resume" className="btn btn-branding p-3">
+            <a href={Khin} download="Khin" className="btn btn-branding p-3">
               Resume
             </a>
           </div>

@@ -1,35 +1,14 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Contact.css";
+import { useForm, ValidationError } from "@formspree/react";
 import contact from "../Contact/Contact.png";
 
 const Contact = () => {
-  const [data, setData] = useState({
-    fullname: "",
-    phone: "",
-    email: "",
-    message: "",
-  });
-  const InputEvent = (event) => {
-    const { name, value } = event.target;
+  const [state, handleSubmit] = useForm("mdorkepq");
+  if (state.succeeded) {
+    alert("Thank you! ☕");
+  }
 
-    setData((preVal) => {
-      return {
-        ...preVal,
-        [name]: value,
-      };
-    });
-  };
-
-  const formSubmit = (event) => {
-    event.preventDefault();
-    alert(
-      `My name is ${data.fullname}.
-            My Phone number is ${data.phone}.
-            My Email address is ${data.email}.
-            My Subject on ${data.subject}.
-            Here is my message I want to say: ${data.message}.`
-    );
-  };
   return (
     <section id="contact">
       <div className="contact_container">
@@ -92,53 +71,39 @@ const Contact = () => {
             </div>
           </div>
           <div className="right box_shadow">
-            <form onSubmit={formSubmit}>
-              <div className="input">
-                <span>YOUR NAME</span>
-                <input
-                  type="text"
-                  name="fullname"
-                  value={data.fullname}
-                  onChange={InputEvent}
-                />
-              </div>
-              <div className="input">
-                <span>YOUR NUMBER</span>
-                <input
-                  type="phone"
-                  name="phone"
-                  value={data.phone}
-                  onChange={InputEvent}
-                />
-              </div>
-              <div className="input">
-                <span>EMAIL</span>
-                <input
-                  type="email"
-                  name="email"
-                  value={data.email}
-                  onChange={InputEvent}
-                />
-              </div>
-              <div className="input">
-                <span>SUBJECT</span>
-                <input
-                  type="text"
-                  name="subject"
-                  value={data.subject}
-                  onChange={InputEvent}
-                />
-              </div>
-              <div className="input">
-                <span>YOUR MESSAGE </span>
-                <textarea
-                  name="message"
-                  value={data.message}
-                  onChange={InputEvent}
-                ></textarea>
-              </div>
-              <button className="btn-shadow">
-                SEND MESSAGE <i className="fa fa-long-arrow-down"></i>
+            <form onSubmit={handleSubmit} id="form">
+              <label htmlFor="name">Your Name</label>
+              <input id="name" type="text" name="name" />
+              <ValidationError
+                prefix="Text"
+                field="text"
+                errors={state.errors}
+              />
+
+              <label htmlFor="email">Email Address</label>
+              <input id="email" type="email" name="email" />
+              <ValidationError
+                prefix="Email"
+                field="email"
+                errors={state.errors}
+              />
+              <label htmlFor="phone">Phone Number</label>
+              <input id="phone" type="phone" name="phone" />
+              <ValidationError
+                prefix="Phone"
+                field="phone"
+                errors={state.errors}
+              />
+
+              <label htmlFor="textarea">Message</label>
+              <textarea id="message" name="message" />
+              <ValidationError
+                prefix="Message"
+                field="message"
+                errors={state.errors}
+              />
+              <button type="submit" disabled={state.submitting}>
+                Submit
               </button>
             </form>
           </div>
