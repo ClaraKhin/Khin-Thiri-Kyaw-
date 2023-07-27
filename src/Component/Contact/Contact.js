@@ -73,7 +73,7 @@ const Contact = () => {
           <div className="right box_shadow">
             <form onSubmit={handleSubmit} id="form">
               <label htmlFor="name">Your Name</label>
-              <input id="name" type="text" name="name" />
+              <input id="name" type="text" name="name" autoComplete="off" />
               <ValidationError
                 prefix="Text"
                 field="text"
@@ -81,14 +81,14 @@ const Contact = () => {
               />
 
               <label htmlFor="email">Email Address</label>
-              <input id="email" type="email" name="email" />
+              <input id="email" type="email" name="email" autoComplete="off" />
               <ValidationError
                 prefix="Email"
                 field="email"
                 errors={state.errors}
               />
               <label htmlFor="phone">Phone Number</label>
-              <input id="phone" type="phone" name="phone" />
+              <input id="phone" type="phone" name="phone" autoComplete="off" />
               <ValidationError
                 prefix="Phone"
                 field="phone"
