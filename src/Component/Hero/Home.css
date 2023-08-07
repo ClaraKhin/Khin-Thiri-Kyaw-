@@ -1,5 +1,5 @@
 #home {
-  margin: 4rem 1rem 0 1rem;
+  margin: 5rem 1rem 0 1rem;
 }
 .hero .photo {
   margin: 1rem 3rem 1rem 3rem;
@@ -56,9 +56,6 @@ h2 {
   visibility: hidden;
 }
 @media (max-width: 768px) {
-  .container {
-    max-width: 100%;
-  }
   .hero {
     display: flexbox;
     flex-direction: column-reverse;

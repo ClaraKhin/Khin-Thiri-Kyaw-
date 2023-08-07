@@ -6,8 +6,18 @@ import contact from "../Contact/Contact.png";
 const Contact = () => {
   const [state, handleSubmit] = useForm("mdorkepq");
   if (state.succeeded) {
-    alert("Thank you! ☕");
+    alert(
+      "Thank you for your time and attention! I will reach you out very soon."
+    );
   }
+  const name = document.getElementById("name");
+  const email = document.getElementById("email");
+  const phone = document.getElementById("phone");
+  const message = document.getElementById("message");
+  name.value = "";
+  email.value = "";
+  phone.value = "";
+  message.value = "";
 
   return (
     <section id="contact">

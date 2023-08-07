@@ -12,18 +12,16 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <div className="container p-3">
-        <video autoPlay loop muted>
-          <source src={bgImage} type="video/mp4" />
-        </video>
-        <Header />
-        <Home />
-        <About />
-        <Skills />
-        <Portfolio />
-        <Contact />
-        <Footer />
-      </div>
+      <video autoPlay loop muted>
+        <source src={bgImage} type="video/mp4" />
+      </video>
+      <Header />
+      <Home />
+      <About />
+      <Skills />
+      <Portfolio />
+      <Contact />
+      <Footer />
     </div>
   );
 }

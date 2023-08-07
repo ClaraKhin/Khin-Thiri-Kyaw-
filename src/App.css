@@ -10,10 +10,7 @@ html {
 body {
   font-family: "Share Tech Mono", monospace;
 }
-.App .container {
-  max-width: 100%;
-  margin: auto;
-}
+
 .App video {
   position: fixed;
   z-index: -2;
@@ -38,9 +35,9 @@ header .navbar .nav-links .nav-link {
 header .navbar {
   margin-top: 0;
   margin-bottom: 0;
-  margin-left: 2rem;
-  margin-right: 2rem;
-  padding: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  padding: 0 1rem 0 1rem;
   background: radial-gradient(
     circle at 10% 20%,
     rgba(90, 92, 106, 0.511) 0%,
