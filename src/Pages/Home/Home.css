@@ -1,0 +1,93 @@
+.hero .photo {
+  margin: 1rem 3rem 1rem 3rem;
+  width: 60%;
+}
+.hero .photo img {
+  width: 50%;
+  border-radius: 30px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80vh;
+}
+.hero .hero-content {
+  width: 60%;
+  margin: 0rem 3rem 0rem 3rem;
+}
+
+.hero h3,
+h1,
+h2 {
+  color: #eee;
+}
+.hero h1 {
+  font-size: 40px;
+  line-height: 10vh;
+}
+.hero h2 {
+  font-size: 29.5px;
+  line-height: 10vh;
+}
+
+.hero .button a {
+  width: 200px;
+  height: 63px;
+  margin: 0.5rem;
+  background: #0000009e;
+  color: #eee;
+  font-size: 20px;
+}
+.hero .button a:hover {
+  background: #000000db;
+  color: #ffffff;
+  transform: translateY(2px);
+}
+.hero .button a:active {
+  transform: translateY(4px);
+}
+.hero .button .sendToPdfFiller {
+  display: none;
+  visibility: hidden;
+}
+@media (max-width: 768px) {
+  .hero {
+    display: flexbox;
+    flex-direction: column-reverse;
+    text-align: center;
+    height: 80vh;
+  }
+  .hero .hero-content {
+    margin: 0 auto;
+    width: 80vw;
+  }
+  .hero h1 {
+    font-size: 18px;
+    line-height: 3vh;
+  }
+
+  .hero h2 {
+    font-size: 19px;
+    line-height: 5vh;
+  }
+  .hero h3 {
+    line-height: 5vh;
+  }
+
+  .hero .button a {
+    justify-content: space-around;
+    margin: 2rem 1rem 0 1rem;
+    width: 102px;
+    height: 50px;
+    font-size: 12px;
+    border-radius: 80px;
+  }
+
+  .hero .photo {
+    width: 50%;
+  }
+  .hero .photo img {
+    width: 95%;
+  }
+}
