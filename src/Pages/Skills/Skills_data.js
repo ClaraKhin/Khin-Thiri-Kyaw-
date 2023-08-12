@@ -36,7 +36,7 @@ const Skills_data = [
   },
   {
     id: 8,
-    image: "../imges/api-icon.png",
+    image: "../images/api-icon.png",
     desc: "API",
   },
   {
