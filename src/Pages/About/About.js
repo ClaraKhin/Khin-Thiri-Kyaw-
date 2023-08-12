@@ -14,14 +14,12 @@ const About = () => {
           </Card.Title>
           <Card.Text className="content">
             <h3>
-              {" "}
               My name is Khin Thiri Kyaw.
               <br /> I'm absolutely delighted you made it to my little corner of
               the web! Welcome to my paradise! <br />
             </h3>
 
             <span>
-              {" "}
               <Typewriter
                 words={[
                   "I'm a Front-end Developer, transforming my experimental expeiences into hands-on experience working on real world projects.",
