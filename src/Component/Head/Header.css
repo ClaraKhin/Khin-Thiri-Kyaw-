@@ -1,5 +1,5 @@
 header .navbar .nav-links .nav-link:hover {
-  color: #ffffffcc;
+ color: #eeeeeeb0;
 }
 header .navbar .nav-links .nav-link:active {
   transform: translateY(10px);

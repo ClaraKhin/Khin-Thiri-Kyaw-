@@ -1,0 +1,46 @@
+.about_container {
+  max-width: 100%;
+}
+.card {
+  background: none;
+  border: none;
+
+  height: 80vh;
+  padding: 1.5rem;
+}
+.card .title h2 {
+  padding: 1rem;
+  text-align: center;
+  color: #eee;
+}
+.card .content {
+  text-align: center;
+}
+.card .content h3 {
+  font-size: 25px;
+  color: #eee;
+  line-height: 9vh;
+}
+.card .content span {
+  font-size: 30px;
+  color: #eee;
+  line-height: 10vh;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .card {
+    height: 75vh;
+    padding: 1rem;
+  }
+  .card .title h2 {
+    font-size: 19px;
+  }
+  .card .content h3 {
+    font-size: 14px;
+    line-height: 5vh;
+  }
+  .card .content span {
+    font-size: 17px;
+    line-height: 5vh;
+  }
+}

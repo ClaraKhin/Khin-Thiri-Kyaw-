@@ -1,0 +1,108 @@
+.contact_container .content img {
+  width: 50%;
+  border-radius: 30px;
+  margin: 0 10rem;
+}
+.contact_container {
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 1.5rem;
+}
+.contact_container .heading h3 {
+  color: #eee;
+}
+
+.contact_container .content .box_shadow {
+  padding: 30px;
+  border: 1px solid #eeeeeeb0;
+  border-radius: 50px;
+  width: 48%;
+}
+.contact_container .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_container .details h1 {
+  margin: 20px 0 20px 0;
+  font-size: 33px;
+}
+.contact_container .details p {
+  font-size: 17px;
+  color: #eee;
+}
+.contact_container .details span {
+  color: #eee;
+}
+.contact_container .details .btn_shadow {
+  margin-right: 20px;
+  border: none;
+  background: none;
+}
+
+.contact_container .content .right form label {
+  display: block;
+  font-size: 13px;
+  color: #eee;
+  margin-top: 20px;
+}
+.contact_container .content .right form input {
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid #83590b39;
+  line-height: 6vh;
+  background: #fffbfb;
+  text-align: center;
+}
+.contact_container .content .right form input:hover {
+  transform: translateY(4px);
+}
+.contact_container .content .right form textarea {
+  resize: both;
+  width: 100%;
+  padding: 20px;
+  border-radius: 25px;
+  border: 1px solid #83590b39;
+  background: #fffbfb;
+  text-align: center;
+}
+.contact_container .content .right form textarea:hover {
+  transform: translateY(4px);
+}
+.contact_container .content .right form button {
+  width: 100%;
+  color: #eee;
+  border: none;
+  height: 55px;
+  margin-top: 2rem;
+  background: #0000009e;
+  border-radius: 30px;
+}
+.contact_container .content .right form button:hover {
+  background: #000000db;
+  color: #ffffff;
+  transform: translateY(2px);
+}
+
+@media (max-width: 768px) {
+  .contact_container .content {
+    display: block;
+  }
+  .contact_container .content .box_shadow {
+    width: 100%;
+  }
+  .contact_container .details h1 {
+    font-size: 23px;
+  }
+  .contact_container .details p {
+    font-size: 12px;
+  }
+  .contact_container .content .right {
+    margin: 1rem 0 0 0;
+  }
+  .contact_container .content img {
+    margin: 0 1.5rem;
+    border-radius: 10px;
+    width: 70%;
+  }
+}
