@@ -1,5 +1,5 @@
 import Header from "./Component/Head/Header";
-import Home from "./Pages/Hero/Home";
+import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";
 import Skills from "./Pages/Skills/Skills";
 import Portfolio from "./Pages/Portfolio/Portfolio";
@@ -15,8 +15,8 @@ function App() {
   return (
     <>
       <Router>
-        <img src={bg} alt="background" className="background_img" />
         <Header />
+        <img src={bg} alt="background" className="background_img" />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
