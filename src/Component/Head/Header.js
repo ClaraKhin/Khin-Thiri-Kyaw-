@@ -13,7 +13,7 @@ const Header = () => {
         <Navbar.Toggle />
         <Navbar.Collapse>
           <Nav className="nav-links justify-content-end flex-grow-1">
-            <Nav.Link href="/" className="nav-link ps-3">
+            <Nav.Link href="/home" className="nav-link ps-3">
               Home
             </Nav.Link>
             <Nav.Link href="/about" className="nav-link ps-3">
