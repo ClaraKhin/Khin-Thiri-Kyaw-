@@ -1,3 +1,4 @@
+import React from "react";
 import Header from "./Component/Head/Header";
 import Home from "./Pages/Home/Home";
 import About from "./Pages/About/About";

@@ -24,6 +24,7 @@
 @media (max-width: 768px) {
   .skill_container {
     max-width: 100%;
+   
   }
   .wrapper {
     display: grid;

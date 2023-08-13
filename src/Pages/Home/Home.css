@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 80vh;
+  height: 77vh;
 }
 .hero .hero-content {
   width: 60%;
@@ -24,11 +24,11 @@ h2 {
 }
 .hero h1 {
   font-size: 40px;
-  line-height: 10vh;
+  line-height: 7vh;
 }
 .hero h2 {
   font-size: 29.5px;
-  line-height: 10vh;
+  line-height: 7vh;
 }
 
 .hero .button a {
@@ -60,24 +60,24 @@ h2 {
   }
   .hero .hero-content {
     margin: 0 auto;
-    width: 80vw;
+    width: 90vw;
   }
   .hero h1 {
     font-size: 18px;
-    line-height: 3vh;
+    margin: 0;
   }
 
   .hero h2 {
-    font-size: 19px;
-    line-height: 5vh;
+    font-size: 15px;
+    margin: 0;
   }
   .hero h3 {
-    line-height: 5vh;
+    margin: 0;
   }
 
   .hero .button a {
     justify-content: space-around;
-    margin: 2rem 1rem 0 1rem;
+    margin: 0.5rem 1.5rem 0 1.5rem;
     width: 102px;
     height: 50px;
     font-size: 12px;
@@ -86,6 +86,7 @@ h2 {
 
   .hero .photo {
     width: 50%;
+    margin: 0;
   }
   .hero .photo img {
     width: 95%;

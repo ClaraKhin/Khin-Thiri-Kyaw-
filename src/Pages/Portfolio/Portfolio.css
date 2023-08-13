@@ -21,6 +21,7 @@
   margin: 0 auto;
   height: 80vh;
   border: 1px solid #eeeeeeb0;
+  background: none;
   border-radius: 50px;
 }
 .card .card_body .title {
@@ -29,6 +30,7 @@
 
 .card .card_body {
   color: #eee;
+
   line-height: 5vh;
 }
 .card .btn {

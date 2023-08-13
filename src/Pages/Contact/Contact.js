@@ -39,7 +39,7 @@ const Contact = () => {
                   target="_blank"
                 >
                   <i
-                    class="fa-brands fa-linkedin fa-lg"
+                    className="fa-brands fa-linkedin fa-lg"
                     style={{ color: "#0072b1" }}
                   ></i>
                 </a>
@@ -51,7 +51,7 @@ const Contact = () => {
                   target="_blank"
                 >
                   <i
-                    class="fa-brands fa-instagram fa-lg"
+                    className="fa-brands fa-instagram fa-lg"
                     style={{ color: "#E4405F" }}
                   ></i>
                 </a>
@@ -63,7 +63,7 @@ const Contact = () => {
                   target="_blank"
                 >
                   <i
-                    class="fa-brands fa-twitter fa-lg"
+                    className="fa-brands fa-twitter fa-lg"
                     style={{ color: "#1DA1F2" }}
                   ></i>
                 </a>
