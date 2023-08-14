@@ -1,7 +1,7 @@
 .about_container {
   max-width: 100%;
   display: block;
-  height: 77vh;
+  height: 80vh;
 }
 .about_container .about_content {
   width: 85%;
@@ -31,10 +31,6 @@
   text-align: center;
 }
 @media (max-width: 768px) {
-  .about_container {
-     height: 80vh;
-  }
-
   .about_container .about_content h2 {
     font-size: 20px;
   }
