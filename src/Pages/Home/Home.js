@@ -28,7 +28,7 @@ const Home = () => {
           </span>
         </h2>
         <div className="button">
-          <a href="/contact" className="btn btn-branding p-3">
+          <a href="/Contact" className="btn btn-branding p-3">
             Contact
           </a>
           <a href={Khin} download="Khin" className="btn btn-branding p-3">
