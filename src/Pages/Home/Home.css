@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  height: 77vh;
+  height: 80vh;
 }
 .hero .hero-content {
   width: 60%;
@@ -56,7 +56,6 @@ h2 {
     display: flexbox;
     flex-direction: column-reverse;
     text-align: center;
-    height: 80vh;
   }
   .hero .hero-content {
     margin: 0 auto;
