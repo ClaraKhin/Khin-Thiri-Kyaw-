@@ -3,6 +3,7 @@ import "./Home.css";
 import hero from "../pic/khin.jpg";
 import Khin from "../pic/Khin.pdf";
 import { Typewriter } from "react-simple-typewriter";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -27,10 +28,10 @@ const Home = () => {
             />
           </span>
         </h2>
-        <div className="button">
-          <a href="/contact" className="btn btn-branding p-3">
-            Contact
-          </a>
+        <div className="btn_section">
+          <Link to="/contact" className="link-contact">
+            <button className="btn-contact">Contact</button>
+          </Link>
           <a href={Khin} download="Khin" className="btn btn-branding p-3">
             Resume
           </a>
