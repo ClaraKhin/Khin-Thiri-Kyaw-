@@ -31,23 +31,45 @@ h2 {
   line-height: 7vh;
 }
 
-.hero .button a {
+.hero .btn_section .link-contact {
+  background: none;
+}
+.hero .btn_section .link-contact .btn-contact {
   width: 200px;
   height: 63px;
-  margin: 0.5rem;
   background: #0000009e;
+  border: none;
   color: #eee;
   font-size: 20px;
+  border-radius: 8px;
+  margin: 1rem;
 }
-.hero .button a:hover {
+.hero .btn_section .link-contact .btn-contact:hover {
   background: #000000db;
   color: #ffffff;
   transform: translateY(2px);
 }
-.hero .button a:active {
+.hero .btn_section .link-contact .btn-contact:active {
   transform: translateY(4px);
 }
-.hero .button .sendToPdfFiller {
+.hero .btn_section .btn-branding {
+  text-decoration: none;
+  width: 200px;
+  height: 63px;
+  background: #0000009e;
+  color: #eee;
+  font-size: 20px;
+}
+.hero .btn_section .btn-branding:hover {
+  background: #000000db;
+  color: #ffffff;
+  transform: translateY(2px);
+}
+.hero .btn_section .btn-branding:active {
+  transform: translateY(4px);
+}
+
+.hero .btn_section .sendToPdfFiller {
   display: none;
   visibility: hidden;
 }
@@ -74,9 +96,12 @@ h2 {
     margin: 0;
   }
 
-  .hero .button a {
-    justify-content: space-around;
-    margin: 0.5rem 1.5rem 0 1.5rem;
+  .hero .btn_section {
+    padding: 1rem;
+  }
+  .hero .btn_section .btn-branding,
+  .hero .btn_section .link-contact .btn-contact {
+    margin: 0rem 1rem 0 1rem;
     width: 102px;
     height: 50px;
     font-size: 12px;
