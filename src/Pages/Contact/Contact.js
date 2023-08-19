@@ -92,7 +92,7 @@ const Contact = () => {
               errors={state.errors}
             />
 
-            <label htmlFor="textarea">Message</label>
+            <label htmlFor="message">Message</label>
             <textarea id="message" name="message" />
             <ValidationError
               prefix="Message"
