@@ -1,6 +1,6 @@
 import React from "react";
 import "./Home.css";
-import hero from "../pic/khin.jpg";
+import hero from "../pic/k.png";
 import Khin from "../pic/Khin.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
