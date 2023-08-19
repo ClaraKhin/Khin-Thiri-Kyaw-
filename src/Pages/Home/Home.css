@@ -3,8 +3,8 @@
   width: 60%;
 }
 .hero .photo img {
-  width: 50%;
-  border-radius: 30px;
+  width: 58%;
+  border-radius: 200px 200px 30px 30px;
 }
 .hero {
   display: flex;
@@ -113,6 +113,6 @@ h2 {
     margin: 0;
   }
   .hero .photo img {
-    width: 95%;
+    width: 100%;
   }
 }
