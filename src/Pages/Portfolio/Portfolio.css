@@ -14,8 +14,9 @@
   grid-gap: 10px;
 }
 .card .img {
-  width: 70%;
-  margin: 10px auto;
+  width: 360px;
+  height: 230px;
+  margin: 25px auto 15px auto;
 }
 .card_wrapper .card {
   margin: 0 auto;
