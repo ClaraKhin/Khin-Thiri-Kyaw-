@@ -32,7 +32,11 @@ const Home = () => {
           <Link to="/contact" className="link-contact">
             <button className="btn-contact">Contact</button>
           </Link>
-          <a href={Khin} download="Khin" className="btn btn-branding p-3">
+          <a
+            href={Khin}
+            download="Khin Thiri Kyaw"
+            className="btn btn-branding p-3"
+          >
             Resume
           </a>
         </div>
