@@ -1,17 +1,22 @@
 .hero .photo {
-  margin: 1rem 3rem 1rem 3rem;
+  margin: 0rem 1rem 1rem 1rem;
   width: 60%;
+  height: 78%;
 }
+
 .hero .photo img {
-  width: 58%;
+  width: 59%;
+  height: 100%;
   border-radius: 200px 200px 30px 30px;
 }
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   height: 80vh;
 }
+
 .hero .hero-content {
   width: 60%;
   margin: 0rem 3rem 0rem 3rem;
@@ -22,10 +27,12 @@ h1,
 h2 {
   color: #eee;
 }
+
 .hero h1 {
   font-size: 40px;
   line-height: 7vh;
 }
+
 .hero h2 {
   font-size: 29.5px;
   line-height: 7vh;
@@ -34,6 +41,7 @@ h2 {
 .hero .btn_section .link-contact {
   background: none;
 }
+
 .hero .btn_section .link-contact .btn-contact {
   width: 200px;
   height: 63px;
@@ -44,14 +52,17 @@ h2 {
   border-radius: 8px;
   margin: 1rem;
 }
+
 .hero .btn_section .link-contact .btn-contact:hover {
   background: #000000db;
   color: #ffffff;
   transform: translateY(2px);
 }
+
 .hero .btn_section .link-contact .btn-contact:active {
   transform: translateY(4px);
 }
+
 .hero .btn_section .btn-branding {
   text-decoration: none;
   width: 200px;
@@ -60,11 +71,13 @@ h2 {
   color: #eee;
   font-size: 20px;
 }
+
 .hero .btn_section .btn-branding:hover {
   background: #000000db;
   color: #ffffff;
   transform: translateY(2px);
 }
+
 .hero .btn_section .btn-branding:active {
   transform: translateY(4px);
 }
@@ -73,16 +86,19 @@ h2 {
   display: none;
   visibility: hidden;
 }
+
 @media (max-width: 768px) {
   .hero {
     display: flexbox;
     flex-direction: column-reverse;
     text-align: center;
   }
+
   .hero .hero-content {
     margin: 0 auto;
     width: 90vw;
   }
+
   .hero h1 {
     font-size: 18px;
     margin: 0;
@@ -92,6 +108,7 @@ h2 {
     font-size: 15px;
     margin: 0;
   }
+
   .hero h3 {
     margin: 0;
   }
@@ -99,6 +116,7 @@ h2 {
   .hero .btn_section {
     padding: 1rem;
   }
+
   .hero .btn_section .btn-branding,
   .hero .btn_section .link-contact .btn-contact {
     margin: 0rem 1rem 0 1rem;
@@ -112,6 +130,7 @@ h2 {
     width: 50%;
     margin: 0;
   }
+
   .hero .photo img {
     width: 100%;
   }
