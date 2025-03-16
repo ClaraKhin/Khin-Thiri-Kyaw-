@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import hero from "../pic/Khin.jpg";
-import Khin from "../pic/khin Thiri Kyaw.pdf";
+import Khin from "../pic/Khinn.pdf";
 import { Typewriter } from "react-simple-typewriter";
 import { Link } from "react-router-dom";
 
