@@ -32,18 +32,15 @@ const Contact = () => {
             <p>Email: clarakhin339@gmail.com</p> <br />
             <span>FIND WITH ME</span>
             <div className="button f-flex">
-              {/* <button className="btn_shadow">
+              <button className="btn_shadow">
                 <a
-                  href="https://www.linkedin.com/in/khin-thiri-kyaw/"
+                  href="https://github.com/ClaraKhin"
                   rel="noreferrer"
                   target="_blank"
                 >
-                  <i
-                    className="fa-brands fa-linkedin fa-lg"
-                    style={{ color: "#0072b1" }}
-                  ></i>
+                  <i className="fa-brands fa-github fa-lg"></i>
                 </a>
-              </button> */}
+              </button>
               <button className="btn_shadow">
                 <a
                   href="https://www.instagram.com/clara_khin96/"
