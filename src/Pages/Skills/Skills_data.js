@@ -36,28 +36,43 @@ const Skills_data = [
   },
   {
     id: 8,
+    image: "../images/next.png",
+    desc: "Next js",
+  },
+  {
+    id: 9,
     image: "../images/api-icon.png",
     desc: "API",
   },
   {
-    id: 9,
+    id: 10,
     image: "../images/seo-icon.png",
     desc: "SEO",
   },
   {
-    id: 10,
+    id: 11,
     image: "../images/nodeJs.png",
     desc: "Node Js",
   },
   {
-    id: 11,
-    image: "../images/mongoDB.png",
-    desc: "mongoDB",
+    id: 12,
+    image: "../images/sql.png",
+    desc: "SQL",
   },
   {
-    id: 12,
+    id: 13,
     image: "../images/github-icon.png",
     desc: "Github",
+  },
+  {
+    id: 14,
+    image: "../images/digitalocean.png",
+    desc: "Digital Ocean",
+  },
+  {
+    id: 15,
+    image: "../images/AWS_logo.png",
+    desc: "AWS",
   },
 ];
 

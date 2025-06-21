@@ -18,7 +18,7 @@ const Home = () => {
           I'm a{" "}
           <span>
             <Typewriter
-              words={["Front-end Developer from Yangon."]}
+              words={["Jr.Full-Stack Developer from Yangon."]}
               loop
               cursor
               cursorStyle="|"

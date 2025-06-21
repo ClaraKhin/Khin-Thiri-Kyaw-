@@ -8,16 +8,19 @@
   color: #eee;
   padding-bottom: 1rem;
 }
+
 .card_wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
 }
+
 .card .img {
   width: 360px;
   height: 230px;
   margin: 25px auto 15px auto;
 }
+
 .card_wrapper .card {
   margin: 0 auto;
   height: 80vh;
@@ -25,6 +28,7 @@
   background: none;
   border-radius: 50px;
 }
+
 .card .card_body .title {
   font-size: 28px;
 }
@@ -34,6 +38,7 @@
 
   line-height: 5vh;
 }
+
 .card .btn {
   width: 200px;
   height: 55px;
@@ -52,25 +57,31 @@
 .card .btn:active {
   transform: translateY(4px);
 }
+
 @media (max-width: 768px) {
   .card_wrapper {
     display: block;
     margin: 0 auto;
   }
+
   .heading h3 {
     padding: 0;
   }
+
   .card_wrapper .card {
     height: 63vh;
     background: none;
     margin: 1rem 0 0 0;
   }
+
   .card .card_body .title {
     font-size: 20px;
   }
+
   .card .card_body .desc {
     font-size: 13px;
   }
+
   .card .img {
     width: 80%;
   }

@@ -16,7 +16,7 @@ const About = () => {
         <p>
           <Typewriter
             words={[
-              "I'm a Front-end Developer, transforming my experimental expeiences into hands-on experience working on real world projects.",
+              "I'm a Junior Full-Stack Developer, transforming my experimental expeiences into hands-on experience working on real world projects with an internship experience.",
               "I'm passionate about creating dynamic, user-friendly apps.",
               "I have experiences with HTML, CSS, and JavaScript, have worked with React which is a popular framework.",
               "Additionally, I am a bit familiar with back-end technologies like Node.js, PHP, Laravel, and Database.",
