@@ -9,7 +9,7 @@ const Footer = () => {
           <img src={logo} alt="khin-logo" />
         </a>
 
-        <p>Copyright &copy; 2023. All rights reserved.</p>
+        <p>Copyright &copy; 2025. All rights reserved.</p>
       </div>
     </footer>
   );
